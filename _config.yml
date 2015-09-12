@@ -1,0 +1,9 @@
+
+baseurl: /blog
+
+highlighter: pygments
+
+safe: true
+lsi: false
+source: your top-level directory
+
