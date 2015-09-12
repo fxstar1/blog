@@ -2,8 +2,8 @@
 baseurl: /blog
 
 highlighter: pygments
+markdown: redcarpet
 
 safe: true
 lsi: false
-source: your top-level directory
 

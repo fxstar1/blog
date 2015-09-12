@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>你好，世界</title>
+        <title>有趣的vim</title>
         <style type="text/css">
 div#container{ width:800px;margin-right:auto;margin-left:auto; }
 div#header{ background-color:#144465;height:120px;text-align:center;padding-top:50px; }
@@ -30,15 +30,30 @@ a:active{ color:#000000;text-decoration:none; }
                 
                 </ul>
             </div>
-            <div id="content"> <h3 id="section">你好，世界</h3>
+            <div id="content"> <h3 id="vim">有趣的vim</h3>
 
 <hr />
 
-<p>我的第一篇blog，程序员最熟悉的Hello World！
-<img src="/images/helloworld.png" alt="helloworld" /></p>
+<h4 id="vim-1">最爱的vim高级用法</h4>
+
+<p><code>vim
+    let @c="^v$\"ay@a"
+    noremap &lt;F4&gt; @c
+</code></p>
+
+<p> 细节:利用vim中的寄存器存储\[执行当前行的命令\]
+寄存器c存储的命令为:将当前行存储至寄存器a中,并执行
+将执行寄存器c中命令这一操作绑定在按键\&lt;F4\&gt;上
+按下F4即可在vim中执行当前行的命令
+
+这里的命令既可以是vim中的一系列操作,也可以调用系统命令
+基于这样一个工具可以实现"所见即可执行"的功能
+</p>
+
+<p><img src="/images/vim.png" alt="vim" /></p>
 
 <hr />
-<p>03 Jul 2015 by fxstar1</p>
+<p>04 Jul 2015 by fxstar1</p>
  </div>
         </div>
     </body>
