@@ -273,6 +273,7 @@ Full-Width Styles
 
 .inner_left{
   position: left;
+  left: 160px;
   max-width: 160px;
   padding: 20px 10px;
   margin: 0 auto;
@@ -280,6 +281,7 @@ Full-Width Styles
 
 .inner_right{
   position: right;
+  left: 480px;
   max-width: 480px;
   padding: 20px 10px;
   margin: 0 auto;
