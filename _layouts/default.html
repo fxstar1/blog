@@ -23,16 +23,15 @@
         <!-- MAIN CONTENT -->
         <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner" >
-                <div>
+                <div class="inner_left">
                     <ul class="post-list">
                         {% for post in site.posts %}
-                        {{ post.date | date: "%F" }} 
-                        <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}  </a> <br>
+                        {{ post.date | date: "%F" }} <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}  </a> <br>
                         {% endfor %}
                     </ul>
                 </div>
 
-                <div>
+                <div class="inner_right">
                     <h1>
                         <a id="blog-website" class="anchor" href="#blog-website" aria-hidden="true"><span class="octicon octicon-link"></span></a>blog website</h1>
 
