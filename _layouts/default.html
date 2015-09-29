@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset='utf-8'>
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -16,8 +15,6 @@
         <!-- HEADER -->
         <div id="header_wrap" class="outer">
             <header class="inner">
-                <a id="forkme_banner" href="https://github.com/fxstar1/blog">View on GitHub</a>
-
                 <h1 id="project_title">Blog</h1>
                 <h2 id="project_tagline">my github blog website</h2>
             </header>
@@ -25,29 +22,29 @@
 
         <!-- MAIN CONTENT -->
         <div id="main_content_wrap" class="outer">
-
             <section id="main_content" class="inner" >
-                <h1>
-                    <a id="blog-website" class="anchor" href="#blog-website" aria-hidden="true"><span class="octicon octicon-link"></span></a>blog website</h1>
+                <div>
+                    <ul class="post-list">
+                        {% for post in site.posts %}
+                        <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}  </a> <br>
+                        {{ post.date | date: "%F" }} <br>
+                        {{ post.category }} <br>
+                        {% endfor %}
+                    </ul>
+                </div>
 
-                <p>this is fxstar1's blog website,
-                and my nickname is fiks,
-                so welcome!</p>
-                <article>
-                    {{ content }}
-                </article>
+                <div>
+                    <h1>
+                        <a id="blog-website" class="anchor" href="#blog-website" aria-hidden="true"><span class="octicon octicon-link"></span></a>blog website</h1>
+
+                    <p>this is fxstar1's blog website,
+                    and my nickname is fiks,
+                    so welcome!</p>
+                    <article>
+                        {{ content }}
+                    </article>
+                </div>
             </section>
-
-            <section id="main_content_side" class="inner">
-                <ul class="post-list">
-                    {% for post in site.posts %}
-                    <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}  </a> <br>
-                    {{ post.date | date: "%F" }} <br>
-                    {{ post.category }} <br>
-                    {% endfor %}
-                </ul>
-            </section>
-
         </div>
 
         <!-- FOOTER  -->
