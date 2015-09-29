@@ -272,16 +272,16 @@ Full-Width Styles
 }
 
 .inner_left{
-  float: left;
   position: relative;
+  float: left;
   max-width: 160px;
   padding: 20px 10px;
   margin: 0 auto;
 }
 
 .inner_right{
-  float: right;
   position: relative;
+  float: right;
   max-width: 480px;
   padding: 20px 10px;
   margin: 0 auto;
