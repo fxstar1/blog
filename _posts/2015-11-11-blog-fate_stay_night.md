@@ -15,6 +15,7 @@ title: fate stay night
 其实只是喜欢[saber](http://tieba.baidu.com/f?kw=saber&fr=home&fp=0&ie=utf-8)
 
 顺带提下看过的其他动漫吧!
+
 * 火影忍者
 * 某科学的超电磁炮s
 * 魔法禁书目录
