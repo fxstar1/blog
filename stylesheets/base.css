@@ -1,0 +1,11 @@
+
+.header{background:#FFFFFF;height:60px;width:100% }
+.headercon{width:600px;margin:0 auto;height:60px;}
+
+/* 导航 */
+.headercon .nav-ul{float:left;}
+.headercon .nav-ul li{float:left; width:60px;}
+.headercon .nav-ul li a{color:#fff; font-size:14px; display:block;line-height:60px;text-align:center;}
+.headercon .nav-ul li a:hover{background:#34495e; transition:all 0.3s;}
+.headercon .nav-ul li .on{background:#34495e;}
+.headercon .nav-ul li i.icon-new{position: absolute; right: 0; top: 20px; font-size: 14px; color: #E07527; background-color: #fff; width: 8px; text-indent: -3px; height: 8px; line-height: 8px; }
