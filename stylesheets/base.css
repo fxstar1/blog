@@ -5,7 +5,7 @@
 /* 导航Logo */
 .headercon .logo{width: 170px;height: 60px;display: block;float: left;}
 .headercon .logo i{ font-size: 60px; color: #fff; margin-left: 16px;}
-.logo{background: rgba(0, 0, 0, 0) url("https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png") no-repeat scroll left center;}
+.icon-ui {background: rgba(0, 0, 0, 0) url("https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png") no-repeat scroll left center;}
 
 /* 导航 */
 .header_block .nav-ul{float:left;}
