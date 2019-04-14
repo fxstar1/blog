@@ -7,3 +7,9 @@ markdown: redcarpet
 safe: true
 lsi: false
 
+
+title: Blog
+description: my github blog website
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
